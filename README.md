@@ -25,21 +25,22 @@ Make sure you have the necessary dependencies installed before running the scrip
 
 2. Navigate to the project directory:
 
-cd your-repository-name
+    cd your-repository-name
 
 3. Create and activate a virtual environment (recommended):
 
 bash
-python -m venv env
-source env/bin/activate  # On Windows use `.\env\Scripts\activate`
+    python -m venv env
+    source env/bin/activate  # On Windows use `.\env\Scripts\activate`
 
 4. Install the required packages:
 
 bash
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ### Usage
 To use this script, run it from the command line with the following syntax:
+
 bash
 python script_name.py <source_directory> <target_directory>
 <source_directory>: The directory containing the images you want to convert.
