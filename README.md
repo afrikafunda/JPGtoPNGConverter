@@ -39,7 +39,7 @@ Make sure you have the necessary dependencies installed before running the scrip
 To use this script, run it from the command line with the following syntax:
 
     python script_name.py <source_directory> <target_directory>
-<source_directory>: The directory containing the images you want to convert.\n
+<source_directory>: The directory containing the images you want to convert.
 <target_directory>: The directory where the converted PNG images will be saved.
 
 ### Example
