@@ -24,7 +24,7 @@ Make sure you have the necessary dependencies installed before running the scrip
    git clone https://github.com/yourusername/your-repository-name.git
 
 2. Navigate to the project directory:
-
+    ```bash
     cd your-repository-name
 
 3. Create and activate a virtual environment (recommended):
