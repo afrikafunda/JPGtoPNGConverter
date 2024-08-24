@@ -47,7 +47,8 @@ To use this script, run it from the command line with the following syntax:
     <target_directory>: The directory where the converted PNG images will be saved.
 
 ### Example
-    ```bash
+    # hjnkm,
+    # ```bash
     python convert_images.py ./images ./converted_images
     This command will convert all images in the ./images directory to PNG format and save them in the ./converted_images directory. If the converted_images directory doesn't exist, the script will create it for you.
 
