@@ -32,7 +32,6 @@ Make sure you have the necessary dependencies installed before running the scrip
 
 4. Install the required packages:
 
-    ```bash
     pip install -r requirements.txt
 
 ### Usage
