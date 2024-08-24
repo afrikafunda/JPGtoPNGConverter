@@ -32,24 +32,26 @@ Make sure you have the necessary dependencies installed before running the scrip
 
 4. Install the required packages:
 
+    ```bash
     pip install -r requirements.txt
+    
 
 ### Usage
 To use this script, run it from the command line with the following syntax:
+
 
     python script_name.py <source_directory> <target_directory>
     <source_directory>: The directory containing the images you want to convert.
     <target_directory>: The directory where the converted PNG images will be saved.
 
 ### Example
-    # hjnkm,
-    # ```bash
     python convert_images.py ./images ./converted_images
     This command will convert all images in the ./images directory to PNG format and save them in the ./converted_images directory. If the converted_images directory doesn't exist, the script will create it for you.
 
 ### Important Notes
-    Ensure the target directory (<target_directory>) is where you want your preprocessed (converted) files to be stored. If the directory already exists, make sure it either contains only files that you don't mind overwriting or is empty.
-    The script assumes the source directory contains valid image files that can be opened by the Pillow library.
+
+Ensure the target directory (<target_directory>) is where you want your preprocessed (converted) files to be stored. If the directory already exists, make sure it either contains only files that you don't mind overwriting or is empty.
+The script assumes the source directory contains valid image files that can be opened by the Pillow library.
 
 ### Contributing
 If you'd like to contribute, feel free to fork the repository and submit a pull request. Issues and feature requests are welcome!
