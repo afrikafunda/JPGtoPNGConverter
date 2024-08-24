@@ -1,8 +1,5 @@
-Here's a sample README.md for your GitHub repository:
 
-markdown
-Copy code
-# Image Converter Script
+# JPG to PNG Converter
 
 This Python script converts all images in a specified directory to PNG format and saves them in a target directory. It's a simple and efficient way to preprocess and standardize image files for further use.
 
@@ -41,7 +38,6 @@ Make sure you have the necessary dependencies installed before running the scrip
 ### Usage
 To use this script, run it from the command line with the following syntax:
 
-    ```bash
     python script_name.py <source_directory> <target_directory>
     <source_directory>: The directory containing the images you want to convert.
     <target_directory>: The directory where the converted PNG images will be saved.
